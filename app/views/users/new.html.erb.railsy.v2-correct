@@ -1,11 +1,12 @@
 <h1>New User</h1>
 
-<%= form_tag users_path, method: :post do %>
+<%= form_tag user_path, method: :post do %>
   <div class="field">
     <%= label_tag :username %>
     <%= text_field_tag :username %>
     <br/>
   </div>
+<%= form_tag user_path, method: :post do %>
   <div class="field">
     <%= label_tag :email %>
     <%= text_field_tag :email %>
