@@ -1,3 +1,20 @@
 090419
 - left off at 'Set up the Back End' step 11.
 
+091619
+- attempting to do edit mod
+  -- need to complete the edit method in the controller
+  -- need to ensure the PATCH (PUT) http method is used...
+  -- see current mods in files:
+     --- edit.html.erb
+     --- users_controller.rb
+     --- routes.rb (note: I added the :edit resource, but the tutorial didn't specify doing that)
+
+091919
+- used the technique used by the project 'get your feet wet' to complete the edit functionality.
+  -- this uses form_with instead of form_for
+  -- hopefully, this will be good enough to use as an example for future projects.
+
+
+
+

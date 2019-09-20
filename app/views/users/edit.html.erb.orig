@@ -1,0 +1,22 @@
+<h1>Edit User</h1>
+
+<%= form_tag edit_user_path, method: :get do %>
+  <div class="field">
+    <%= label_tag :username %>
+    <%= text_field_tag :username %>
+    <br/>
+  </div>
+  <div class="field">
+    <%= label_tag :email %>
+    <%= text_field_tag :email %>
+    <br/>
+  </div>
+  <div class="field">
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
+    <br/>
+  </div>
+  <div class="actions">
+    <%= submit_tag "Submit" %>
+  </div>
+<% end %>
